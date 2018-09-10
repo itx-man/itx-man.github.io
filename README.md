@@ -12,7 +12,7 @@
 	* [HTML5 演示文档布局](#keynote-layout)
 * 评论与 Google/Baidu Analytics
 	* [评论](#comment)
-	* [网站分析](#analytics) 
+	* [网站分析](#analytics)
 * 高级部分
 	* [自定义](#customization)
 	* [标题底图](#header-image)
@@ -108,13 +108,13 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 	# SNS settings
 	RSS: false
-	jianshu_username: 	jianshu_id 
+	jianshu_username: 	jianshu_id
 	zhihu_username:     username
 	facebook_username:  username
 	github_username:    username
 	# weibo_username:   username
-	
-	
+
+
 
 ![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
 
@@ -217,7 +217,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 ### Header Image
 
 博客每页的标题底图是可以自己选的，看看几篇示例post你就知道如何设置了。
-  
+
 标题底图的选取完全是看个人的审美了。每一篇文章可以有不同的底图，你想放什么就放什么，最后宽度要够，大小不要太大，否则加载慢啊。
 
 > 上传的图片最好先压缩，这里推荐 imageOptim 图片压缩软件，让你的博客起飞。
@@ -249,8 +249,6 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 参考文档：[using jekyll with pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Upgrading from 2.x to 3.x](http://jekyllrb.com/docs/upgrading/2-to-3/)
 
 
-博客的搭建教程修改自 [qiubaiying](https://github.com/qiubaiying/qiubaiying.github.io) 
- 
 详细的教程戳这 [《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 或 [wiki](https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
 
 ### [查看博客戳这里 👆](http://itx-man.github.io)
@@ -258,7 +256,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 ## 致谢
 
-1. 这个模板是从这里 [qiubaiying](https://github.com/qiubaiying/qiubaiying.github.io) fork 的, 感谢这个作者。 
+1. [博客教程](https://github.com/qiubaiying/qiubaiying.github.io)
 2. 感谢 Jekyll、Github Pages 和 Bootstrap!
 
 ## License
