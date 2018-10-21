@@ -4,7 +4,7 @@ title:      效率工具飞行手册                 # 标题
 subtitle:   Atom-Sublime Text-常用的快捷键   # 副标题
 date:       2018-10-15                      # 时间
 author:     YuanLe                          # 作者
-header-img: img/London_England.jpg          # 这篇文章标题背景图片
+header-img: img/Romantic sunrise.jpg          # 这篇文章标题背景图片
 catalog: true                               # 是否归档
 tags:                                       # 标签
     - Atom
@@ -93,3 +93,76 @@ GitHub 的目标是帮助大家构建更好的软件，而 Atom 则是实现这�
 | cmd-down	| 移动到文件结束 |
 | ctrl-g	| 移动到指定行 row:column 处 |
 | cmd-r	| 在方法之间跳转 |
+
+#### 选取
+
+| 快捷键 | 快捷键的功能 |
+| ------ | ------ |
+| ctrl-shift-P |	选取至上一行 |
+| ctrl-shift-N	| 选取至下一样 |
+| ctrl-shift-B |	选取至前一个字符 |
+| ctrl-shift-F	| 选取至后一个字符 |
+| alt-shift-B, alt-shift-left |	选取至字符开始 |
+| alt-shift-F, alt-shift-right |	选取至字符结束 |
+| ctrl-shift-E, cmd-shift-right	| 选取至本行结束 |
+| ctrl-shift-A, cmd-shift-left |	选取至本行开始 |
+| cmd-shift-up |	选取至文件开始 |
+| cmd-shift-down |	选取至文件结尾 |
+| cmd-A |	全选 |
+| cmd-L	| 选取一行，继续按回选取下一行 |
+| ctrl-shift-W | 选取当前单词 |
+
+#### 目录树操作
+
+| 快捷键 | 快捷键的功能 |
+| ------ | ------ |
+| cmd-\ 或者 cmd-k cmd-b | 显示(隐藏)目录树 |
+| ctrl-0 | 焦点切换到目录树(再按一次或者Esc退出目录树) |
+| 在目录下 |
+| a	添加文件 |
+| d	| 将当前文件另存为(duplicate) |
+| i	| 显示(隐藏)版本控制忽略的文件 |
+| alt-right 和 alt-left	| 展开(隐藏)所有目录 |
+| ctrl-al-] 和 ctrl-al-[	| 同上 |
+| ctrl-[ 和 ctrl-]	| 展开(隐藏)当前目录 |
+| cmd-k h 或者 cmd-k left	| 在左半视图中打开文件 |
+| cmd-k j 或者 cmd-k down	| 在下半视图中打开文件 |
+| cmd-k k 或者 cmd-k up	| 在上半视图中打开文件 |
+| cmd-k l 或者 cmd-k right	| 在右半视图中打开文件 |
+| ctrl-shift-C	| 复制当前文件绝对路径 |
+
+#### 分屏操作
+
+| 快捷键 | 快捷键的功能 |
+| ------ | ------ |
+| cmd-k h 或者 cmd-k left	| 在左半视图中打开文件 |
+| cmd-k j 或者 cmd-k down	| 在下半视图中打开文件 |
+| cmd-k k 或者 cmd-k up	| 在上半视图中打开文件 |
+| cmd-k l 或者 cmd-k right |	在右半视图中打开文件 |
+| cmd-k cmd-k 或者 cmd-k cmd-right |	在右半视图中打开文件 |
+
+#### 书签
+
+| 快捷键 | 快捷键的功能 |
+| ------ | ------ |
+| cmd-F2	| 在本行增加书签 |
+| F2	| 跳到当前文件的下一条书签 |
+| shift-F2	| 跳到当前文件的上一条书签 |
+| ctrl-F2	| 列出当前工程所有书签 |
+
+#### 编辑和删除文本
+
+| 快捷键 | 快捷键的功能 |
+| ------ | ------ |
+| ctrl-T |	使光标前后字符交换 |
+| cmd-J	 | 将下一行与当前行合并 |
+| ctrl-cmd-up, ctrl-cmd-down |	使当前行向上或者向下移动 |
+| cmd-shift-D	 | 复制当前行到下一行 |
+
+
+#### Atom大小写转换
+
+| 快捷键 | 快捷键的功能 |
+| ------ | ------ |
+| cmd-K, cmd-U	| 使当前字符大写 |
+| cmd-K, cmd-L |	使当前字符小写 |
