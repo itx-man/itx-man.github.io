@@ -65,7 +65,7 @@ PopupWindow的「定义」：
 
 ### 3) 核心代码
 
-```
+{% highlight java linenos %}
 private Button btn_show;
 private Context mContext;
 
@@ -127,4 +127,4 @@ private void initPopWindow(View v) {
         }
     });
 }
-```
+{% endhighlight %}
