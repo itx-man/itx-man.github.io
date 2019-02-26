@@ -36,36 +36,37 @@ PopupWindow的「定义」：
 
 ### 1) 几个常用的构造方法
 
-```
-我们在文档中可以看到，提供给我们的PopupWindow的构造方法有九种之多，这里只贴实际 开发中用得较多的几个构造方法：
+{% highlight java %}
+//我们在文档中可以看到，提供给我们的PopupWindow的构造方法有九种之多，这里只贴实际 开发中用得较多的几个构造方法：
 
 * public PopupWindow (Context context)
 * public PopupWindow(View contentView, int width, int height)
 * public PopupWindow(View contentView)
 * public PopupWindow(View contentView, int width, int height, boolean focusable)
 
-参数就不用多解释了吧，contentView是PopupWindow显示的View，focusable是否显示焦点
-```
+//参数就不用多解释了吧，contentView是PopupWindow显示的View，focusable是否显示焦点
+{% endhighlight %}
 
 ### 2) 常用的一些方法
 
-```
-下面介绍几个用得较多的一些方法，其他的可自行查阅文档：
+{% highlight java %}
+//下面介绍几个用得较多的一些方法，其他的可自行查阅文档：
 
-* setContentView(View contentView)：设置PopupWindow显示的View
-* getContentView()：获得PopupWindow显示的View
-* showAsDropDown(View anchor)：相对某个控件的位置（正左下方），无偏移
-* showAsDropDown(View anchor, int xoff, int yoff)：相对某个控件的位置，有偏移
-* showAtLocation(View parent, int gravity, int x, int y)： 相对于父控件的位置（例如正中央Gravity.CENTER，下方Gravity.BOTTOM等），可以设置偏移 或无偏移 PS:parent这个参数只要是activity中的view就可以了！
-* setWidth/setHeight：设置宽高，也可以在构造方法那里指定好宽高， 除了可以写具体的值，还可以用WRAP_CONTENT或MATCH_PARENT， popupWindow的width和height属性直接和第一层View相对应。
-* setFocusable(true)：设置焦点，PopupWindow弹出后，所有的触屏和物理按键都由PopupWindows 处理。其他任何事件的响应都必须发生在PopupWindow消失之后，（home 等系统层面的事件除外）。
-  比如这样一个PopupWindow出现的时候，按back键首先是让PopupWindow消失，第二次按才是退出 activity，准确的说是想退出activity你得 首先让PopupWindow消失，因为不并是任何情况下按back PopupWindow都会消失，必须在PopupWindow设置了背景的情况下 。
-* setAnimationStyle(int)：设置动画效果
-```
+* setContentView(View contentView)：//设置PopupWindow显示的View
+* getContentView()：//获得PopupWindow显示的View
+* showAsDropDown(View anchor)：//相对某个控件的位置（正左下方），无偏移
+* showAsDropDown(View anchor, int xoff, int yoff)：//相对某个控件的位置，有偏移
+* showAtLocation(View parent, int gravity, int x, int y)： //相对于父控件的位置（例如正中央Gravity.CENTER，下方Gravity.BOTTOM等），可以设置偏移 或无偏移 PS:parent这个参数只要是activity中的view就可以了！
+* setWidth/setHeight：//设置宽高，也可以在构造方法那里指定好宽高， 除了可以写具体的值，还可以用WRAP_CONTENT或MATCH_PARENT， popupWindow的width和height属性直接和第一层View相对应。
+* setFocusable(true)：//设置焦点，PopupWindow弹出后，所有的触屏和物理按键都由PopupWindows 处理。其他任何事件的响应都必须发生在PopupWindow消失之后，（home 等系统层面的事件除外）。
+                     //比如这样一个PopupWindow出现的时候，按back键首先是让PopupWindow消失，第二次按才是退出 activity，准确的说是想退出activity你得 首先让PopupWindow消失，
+                     //因为不并是任何情况下按back PopupWindow都会消失，必须在PopupWindow设置了背景的情况下 。
+* setAnimationStyle(int)：//设置动画效果
+{% endhighlight %}
 
 ### 3) 核心代码
 
-{% highlight java linenos %}
+{% highlight java %}
 private Button btn_show;
 private Context mContext;
 
