@@ -35,3 +35,7 @@ Android 里动画可以分为两类，Animation 和 Transition; 其中 Animation
 view.animate().translationX(500);
 ```
 ![translationX](https://itx-man.github.io/img/source/ViewPropertyAnimatorTranslationX.gif)
+
+具体可以跟 View 中的方法以及所对应的 View 中的实际操作的方法如下图所示：
+
+![ViewPropertyAnimator](https://itx-man.github.io/img/source/ViewPropertyAnimator.jpg)

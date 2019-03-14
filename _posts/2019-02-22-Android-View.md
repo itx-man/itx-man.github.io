@@ -1,7 +1,7 @@
 ---
 layout:     post                            # 使用的布局 (不需要修改)
 title:      绘图基础                    # 标题
-subtitle:   《Android自定义控件开发入门与实战》_启舰_读书笔记               # 副标题
+subtitle:   Android自定义控件开发入门与实战（启舰）读书笔记               # 副标题
 date:       2019-02-22                      # 时间
 author:     YuanLe                          # 作者
 header-img: img/United States, North America.jpg         # 这篇文章标题背景图片
