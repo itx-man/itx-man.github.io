@@ -7,7 +7,7 @@ author:     YuanLe                          # 作者
 header-img: img/Australia, Australia_Pacific.jpg         # 这篇文章标题背景图片
 catalog: true                               # 是否归档
 tags:                                       # 标签
-    - Markdown
+    - 自定义View
 ---
 
 来源：[PopupWindow(悬浮框)的基本使用](http://www.runoob.com/w3cnote/android-tutorial-popupwindow.html)
