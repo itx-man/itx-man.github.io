@@ -1,10 +1,10 @@
 # Site settings
 title: viviのring Blog
-SEOTitle: 元乐的博客 | YuanLe Blog
+SEOTitle: Collection | Habbit Blog
 header-img: img/Venice-Italy.jpg
-email: yuanlerui@gmail.com
+email: 1216800297@qq.com
 description: "Every failure is leading towards success."
-keyword: "BY, Yuanle Blog, 元乐的博客, Java, Android"
+keyword: "Learning, Collection Blog, Habbit, Java, Android, YuanLe Ring"
 url: "http://itx-man.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/itx-man/itx-man.github.io.git" # you code repository
@@ -18,7 +18,7 @@ sidebar-avatar: /img/facebook.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-# weibo_username:     
+# weibo_username:
 zhihu_username:     yuanle-ring
 github_username:    itx-man
 facebook_username:  Yuanle Ring
