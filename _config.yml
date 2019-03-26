@@ -1,10 +1,10 @@
 # Site settings
 title: viviのring Blog
-SEOTitle: Collection | Habbit Blog
+SEOTitle: Keep Go
 header-img: img/Venice-Italy.jpg
 email: 1216800297@qq.com
 description: "Every failure is leading towards success."
-keyword: "Learning, Collection Blog, Habbit, Java, Android, YuanLe Ring"
+keyword: "Learning, Keep Go, Java, Android, YuanLe Ring"
 url: "http://itx-man.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/itx-man/itx-man.github.io.git" # you code repository
