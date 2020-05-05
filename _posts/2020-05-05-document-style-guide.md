@@ -7,8 +7,7 @@ author:     YuanLe                          # 作者
 header-img: img/Australia, Australia_Pacific.jpg         # 这篇文章标题背景图片
 catalog: true                               # 是否归档
 tags:                                       # 标签
-    - 中文技术文档	
-	- 写作规范
+    - 中文技术文档
 ---
 
 来源：[中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
