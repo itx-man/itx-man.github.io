@@ -7,7 +7,7 @@ author:     YuanLe                          # 作者
 header-img: img/Australia, Australia_Pacific.jpg         # 这篇文章标题背景图片
 catalog: true                               # 是否归档
 tags:                                       # 标签
-    - Markdown
+    - Android UI
 ---
 
 来源：[markdown-intro](https://github.com/mzlogin/markdown-intro)
@@ -384,7 +384,7 @@ Markdown 支持行内式链接和引用式链接。
 **Markdown：**
 
     Android 里使用 `TextUtils` 类的 `isEmpty` 方法来判断字符串是否为空。
-
+    
     ```java
     if (TextUtils.isEmpty(text)) {
         return null;
