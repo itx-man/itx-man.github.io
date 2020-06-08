@@ -7,7 +7,7 @@ author:     YuanLe                          # 作者
 header-img: img/Lake Tekapo, New Zealand.jpg         # 这篇文章标题背景图片
 catalog: true                               # 是否归档
 tags:                                       # 标签
-    - 内存泄漏
+    - Android
 ---
 
 来源：[Android 内存泄漏分析心得](https://zhuanlan.zhihu.com/p/25213586)

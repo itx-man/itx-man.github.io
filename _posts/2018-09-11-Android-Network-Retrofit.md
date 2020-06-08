@@ -8,5 +8,4 @@ header-img: img/London_England.jpg
 catalog: true
 tags:
     - Android
-    - Retrofit
 ---

@@ -8,11 +8,6 @@ header-img: img/Romantic sunrise.jpg          # 这篇文章标题背景图片
 catalog: true                               # 是否归档
 tags:                                       # 标签
     - Atom
-    - Sublime text
-    - 快捷键
-    - 环境变量
-    - Cmder
-    - Stetho
 ---
 
 

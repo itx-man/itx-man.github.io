@@ -7,8 +7,7 @@ author:     YuanLe                          # 作者
 header-img: img/United States, North America.jpg         # 这篇文章标题背景图片
 catalog: true                               # 是否归档
 tags:                                       # 标签
-    - 自定义View
-    - Android动画
+    - Android
 ---
 
 来源：[HenCoder Android 自定义 View 1-6：属性动画 Property Animation（上手篇）](https://hencoder.com/ui-1-6/)

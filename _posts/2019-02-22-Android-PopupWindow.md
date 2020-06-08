@@ -7,7 +7,7 @@ author:     YuanLe                          # 作者
 header-img: img/Australia, Australia_Pacific.jpg         # 这篇文章标题背景图片
 catalog: true                               # 是否归档
 tags:                                       # 标签
-    - 自定义View
+    - Android
 ---
 
 来源：[PopupWindow(悬浮框)的基本使用](http://www.runoob.com/w3cnote/android-tutorial-popupwindow.html)
@@ -94,7 +94,7 @@ private void initPopWindow(View v) {
             ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, true);
 
     popWindow.setAnimationStyle(R.anim.anim_pop);  //设置加载动画
-
+    
     //这些为了点击非PopupWindow区域，PopupWindow会消失的，如果没有下面的
     //代码的话，你会发现，当你把PopupWindow显示出来了，无论你按多少次后退键
     //PopupWindow并不会关闭，而且退不出程序，加上下述代码可以解决这个问题
@@ -112,7 +112,7 @@ private void initPopWindow(View v) {
 
     //设置popupWindow显示的位置，参数依次是参照View，x轴的偏移量，y轴的偏移量
     popWindow.showAsDropDown(v, 50, 0);
-
+    
     //设置popupWindow里的按钮的事件
     btn_xixi.setOnClickListener(new View.OnClickListener() {
         @Override
